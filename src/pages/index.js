@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/Card"
+import Section from "../components/Section"
 
 const IndexPage = () => (
   <Layout>
@@ -40,6 +41,12 @@ const IndexPage = () => (
         />
       </div>
     </div>
+    <Section
+      image={require("../images/wallpaper2.jpg")}
+      logo={require("../images/logo-react.png")}
+      title="React for Designers"
+      text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
+    />
     <SEO title="Home" />
   </Layout>
 )
