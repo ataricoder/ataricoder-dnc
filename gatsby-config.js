@@ -3,7 +3,7 @@ let activeEnv =
 
 console.log(`Using environment config: '${activeEnv}'`)
 
-require("dotenv").config({
+const dotenv = require("dotenv").config({
   path: `.env.${activeEnv}`,
 })
 

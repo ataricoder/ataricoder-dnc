@@ -59,7 +59,10 @@ const Copyright = styled.div`
 
 const Footer = ({ data, children }) => (
   <FooterGroup>
-    <Text>Let's test this out, GraphQL is cool</Text>
+    <Text>
+      Let's test this out, GraphQL is cool. Let's test this a second time, now
+      with Netlify automatic deploys
+    </Text>
     <Button>Tweet</Button>
     <LinkGroup>
       {data.allContentfulLink.edges.map(edge => (
